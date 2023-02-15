@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor="aqua">
+<h1><font color="Blue">Заказ проекта</font></h1>
+<p>Вы можете послать письмо на наш электронный адрес</p>
+<a href="https://mail.ru/"><font color="orabge">Написать письмо</font></a>
+<p>Здесь вы можете заполнить форму для заказа покупки проекта
+	<form>
+<br>Поля со <font color="Red">*</font> обязательны для заполнения</p>
+<table border="1"> 
+	<tr>
+		<td>Текст заказа в произвольной форме: </td>
+		<td><textarea name="address" rows="3" cols="50"></textarea></td>
+	</tr>
+	<tr>
+		<td >Фамилия, имя, отчество <font color="Red">*</font></td>
+		<td><input type="text" name="modem" /></td>
+	</tr>
+	<tr>
+		<td>Телефон<font color="Red">*</font></td>
+		<td><input type="text" name="modem" /></td>
+	</tr>
+	<tr>
+		<td>E-mail<font color="Red">*</font></td>
+		<td><input type="text" name="modem"  /></td>
+	</tr>
+	<tr>
+		<td>Адрес<font color="Red">*</font></td>
+		<td><input type="text" name="modem" /></td>
+	</tr>
+	<tr>
+		<td>
+			Выберите категорию проекта:
+		</td>
+		<td>
+			<form>
+				<select name="Kategoriya">
+					<option value="townhouse "/> Проекты таунхаусов и блокированных домов
+					<option value="two_family "/> Проекты домов на две семьи
+					<option value="uzkie"/>Проекты узких домов
+					<option value="banya"/> Проекты бань
+				</select>		
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Выберите материал:
+		</td>
+		<td>
+			<select name="material">
+				<option value="kirpich "/> Проекты кирпичных домов
+				<option value="gazo_peno "/> Проекты домов из газобетона и пенобетона
+				<option value="brus_brevno"/>Проекты домов из бруса и бревна
+				<option value="karkas"/> Проекты каркасных домов
+			</select>
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td>Вaш возраст: </td>
+
+		
+		<td>
+			<br>До 18<input type="radio" name="modem"/>
+		
+			<br>18-50<input type="radio" name="modem" />
+		
+			<br>Старше 50<input type="radio" name="modem"/>
+		</td>
+	
+</table>
+<input type="submit" value="Проверка" /> <input type="reset" value="Очистить" />
+</form>
+</body>
+</html>
